@@ -1,0 +1,10 @@
+  <?php foreach ($viewCandidates as $viewCandidate): ?>
+ <tr>
+     <th  style="width:50%">MARK</th>
+    <th   style="width:50%">question</th>
+    <th  style="vertical-align: middle;"><?php echo $viewCandidate['cand_name']; ?></th>
+ </tr>
+
+                  <?php endforeach; ?>
+
+                </tbody>
